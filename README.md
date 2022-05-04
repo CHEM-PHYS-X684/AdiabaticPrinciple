@@ -15,12 +15,14 @@ with a quantum circuit.
 
 2. create virtual environment (optional)
          
-        virtualenv -p python3 venv
-        source venv/bin/activate
+        conda create -n ENV_NAME python=3
+        conda activate ENV_NAME
 
 3. Install
 
         pip install -r requirements.txt
+        pip install qiskit pylatexenc jupyterlab numpy
+        conda install matplotlib
 
 4. Start Jupyter tests
  
